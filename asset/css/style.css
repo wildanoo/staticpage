@@ -1,0 +1,119 @@
+body{
+    margin  : 0;
+    padding: 0;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.mainbody{
+    width: 100%;
+    background: #eee;
+    height: 550px;
+    margin: 50px 0;
+}
+
+.leftpart{
+    height: calc(100% - 40px);
+    width: 25%;
+    background: #eee;
+    padding: 20px;
+    float: left;
+}
+
+.rightpart{
+    width: 71%;
+    height: 100%;
+    float: left;
+}
+
+.right-top{
+    width: 100%;
+    height: calc(50% - 40px);
+    padding: 20px 0 20px;
+}
+.right-bot{
+    width: 100%;
+    height: 50%;
+    /* background: #00ffff; */
+}
+
+.photoprofile{
+    width: 100%;
+    height: 250px;
+    background: #ff0;
+    overflow: hidden;
+}
+
+.photoprofile img{
+    width: 100%;
+}
+
+.biobox{
+    width: 100%;
+    height: calc(50% - 20px);
+    padding-top: 20px;
+}
+.bioname{
+    font-size: 18px;
+}
+.title2{
+    display: block;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.box1{
+    width: 50%;
+    height: calc(50% - 20px);
+    float: left;
+    padding: 10px 0 10px;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+    display: block;
+}
+.box2{
+    /* background: #9da0d9; */
+    text-align: center;
+    width: 25%;
+    height: 46%;
+    float: left;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.title3{
+    font-size: 20px;
+    color: #555;
+}
+
+.score{
+    font-size: 34px;
+    color: #222;
+}
+
+.inner-box{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.red{
+    background: #f00;
+}
+.green{
+    background: #0f0;
+}
+.blue{
+    background: #00f;
+}
+.yellow{
+    background: #ff0;
+}
+
